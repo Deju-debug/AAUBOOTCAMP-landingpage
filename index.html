@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taskly Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="logo" href="#" aria-label="Taskly home">
+          <span class="logo-mark">T</span>
+          <span>Taskly</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#workflow">Workflow</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a class="nav-button" href="#pricing">Get Started</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Smart project planning</p>
+          <h1>Organize your team work in one calm place.</h1>
+          <p class="hero-copy">
+            Plan tasks, track progress, and keep every deadline visible with a
+            workspace built for focused, everyday collaboration.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#pricing">Start Free</a>
+            <a class="btn btn-secondary" href="#features">See Features</a>
+          </div>
+
+          <div class="stats" aria-label="Product highlights">
+            <div>
+              <strong>24k+</strong>
+              <span>Active users</span>
+            </div>
+            <div>
+              <strong>98%</strong>
+              <span>On-time tasks</span>
+            </div>
+            <div>
+              <strong>4.9</strong>
+              <span>Average rating</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Taskly dashboard preview">
+          <div class="dashboard-card">
+            <div class="card-top">
+              <div>
+                <span class="dot"></span>
+                <span class="dot orange"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="status-pill">Live</span>
+            </div>
+
+            <div class="progress-block">
+              <p>Project progress</p>
+              <strong>76%</strong>
+              <div class="progress-bar">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="task-list">
+              <article>
+                <span class="check"></span>
+                <div>
+                  <h3>Landing page review</h3>
+                  <p>Due today</p>
+                </div>
+              </article>
+              <article>
+                <span class="check muted"></span>
+                <div>
+                  <h3>Design handoff</h3>
+                  <p>Tomorrow</p>
+                </div>
+              </article>
+              <article>
+                <span class="check muted"></span>
+                <div>
+                  <h3>Launch checklist</h3>
+                  <p>Friday</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="floating-card calendar-card">
+            <span>May</span>
+            <strong>05</strong>
+          </div>
+
+          <div class="floating-card team-card">
+            <span class="avatar one"></span>
+            <span class="avatar two"></span>
+            <span class="avatar three"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="section-heading">
+          <p class="eyebrow">Features</p>
+          <h2>Everything your next launch needs.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-icon">01</span>
+            <h3>Clear task boards</h3>
+            <p>Group priorities, assign owners, and see what needs attention.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">02</span>
+            <h3>Team timelines</h3>
+            <p>Track dates and dependencies before deadlines become surprises.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">03</span>
+            <h3>Fast reporting</h3>
+            <p>Share progress snapshots with clients, classmates, or managers.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="workflow" id="workflow">
+        <div>
+          <p class="eyebrow">Workflow</p>
+          <h2>From idea to done without losing momentum.</h2>
+        </div>
+        <a class="btn btn-primary" href="#contact">Book a Demo</a>
+      </section>
+
+      <section class="pricing" id="pricing">
+        <div>
+          <p class="eyebrow">Pricing</p>
+          <h2>Start simple, grow when your team does.</h2>
+        </div>
+        <article class="price-card">
+          <span>Starter</span>
+          <strong>Free</strong>
+          <p>Boards, timelines, and reports for small student projects.</p>
+          <a class="btn btn-primary" href="#contact">Choose Plan</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <p>&copy; 2026 Taskly. Built for focused teams.</p>
+      <a href="mailto:dejenbelete623@gmail.com">dejenbelete623@gmail.com</a>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
